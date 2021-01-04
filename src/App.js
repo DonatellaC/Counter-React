@@ -4,7 +4,11 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  
+
   render() {
+    const name = "Montse";
+
   return (
     <div className="App">
       <header className="App-header">
@@ -14,7 +18,7 @@ class App extends Component {
         </h1>
       </header>
 
-      <Greetings />
+      <Greetings name={name}/>
     </div>
   );
 }
