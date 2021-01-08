@@ -11,6 +11,7 @@ class App extends Component {
     }
   }
  
+  // Functions counter
   incrementCount= () => {
     this.setState({
       count: this.state.count + 1
@@ -23,11 +24,13 @@ class App extends Component {
     })
   }
 
+  //Function submit button
   handleClick() {
     alert("Hello!")
 }
 
   render() {
+    //Create variable for Montse
     const name = "Montse";
    
 
@@ -40,15 +43,14 @@ class App extends Component {
         </h1>
       </header>
 
+{/* Passing information to child component */}
       <Greetings 
            name={name}
            incrementCount={this.incrementCount}
            decrementCount={this.decrementCount}
            handleClick={this.handleClick}
            count={this.state.count}
-    
-
-      />
+     />
       
     </div>
   );
