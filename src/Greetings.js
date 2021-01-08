@@ -14,9 +14,9 @@ class Greetings extends Component {
                 </div>
                <div>
                <h1>{this.props.count}</h1>
-                   <button onClick={this.props.incrementCount}>+</button>
+                   <button className="countBtn" onClick={this.props.incrementCount}>+</button>
                
-                   <button onClick={this.props.decrementCount}>-</button>
+                   <button className="countBtn" onClick={this.props.decrementCount}>-</button>
                </div>
             
             </div>

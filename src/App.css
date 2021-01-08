@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+/* BUTTONS */
+
+.greetingsBtn {
+  background-color: #3498db;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 1.1rem;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.greetingsBtn:hover {
+  background: #4adbee;
+  background-image: linear-gradient(to bottom, #4adbee, #3498db);
+}
+
+.countBtn {
+  background-color: #253346;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px 10px 0;
+  width: 70px;
+  height: 70px;
+}
+
+.countBtn:active {
+  transform: scale(0.98);
+}
