@@ -8,7 +8,7 @@ React project from scrach
 
 - npm install -g create-react-app
 
-## 📌 `Create the first ""Greetings"" component`
+## 📌 `Create the first "Greetings" component`
 
 - Import it into the main App component
 - Add the text "Hello World!
