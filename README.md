@@ -28,3 +28,7 @@ React project from scrach
 - The counter will contain the increment and the decrement buttons, and you can see the current value of the counter
 - Pressing the increment or decrement button will run a method in the "App" component which modifies the value of the counter. The value is saved in the state of the "App" component
 - Then, the value of the counter as saved in the "App" state will have to be passed by props to the child component "Greetings"
+
+## Result
+
+![Img](Img.png)
